@@ -31,7 +31,6 @@ wincertstore==0.2
 xgboost==0.90
 zipp==2.0.1
 colorama==0.4.4
-Flask==2.0.2
 importlib-metadata==4.8.2
 itsdangerous==2.0.1
 Jinja2==3.0.3
