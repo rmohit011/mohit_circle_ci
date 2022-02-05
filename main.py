@@ -84,7 +84,7 @@ def trainRouteClient():
 
 
     except ValueError:
-
+        print("value error")
         return Response("Error Occurred! %s" % ValueError)
 
     except KeyError:
@@ -104,3 +104,4 @@ if __name__ == "__main__":
     # print("Serving on %s %d" % (host, port))
     httpd.serve_forever()
     #http://127.0.0.1:5000/
+    
